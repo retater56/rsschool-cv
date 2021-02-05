@@ -10,7 +10,7 @@
 
 ### Summury
 
-I am 23 years old. Last year I graduated from the university with a degree in engineering, but the motivation in our country does not give me the opportunity to realize myself. At the moment, I have a great desire to realize myself as a person and prove my importance in this world. That is why I want to master programming - for me it is an opportunity to grow professionally, to achieve all my desires, and I have a lot of them. For over a year now I have been studying the structure of work on my own. In the future, I want to become a Full-stack developer in order to know absolutely everything.
+I am 23 years old. Last year I graduated from the university with a degree in engineering, but the motivation in our country does not give me the opportunity to realize myself. At the moment, I have a great desire to **realize myself** as a person and prove **my importance in this world**. That is why I want to master programming - for me it is an opportunity to grow professionally, to achieve all my desires, and I have a lot of them. For over a year now I have been studying the structure of work on my own. In the future, I want to become a Full-stack developer in order to know absolutely everything.
  
 ### Skills
 
