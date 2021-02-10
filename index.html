@@ -7,106 +7,155 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="header">
-          <div class="header-image"><img src="123.jpg" alt="Фотография"></div>
-          <div class="header-name"><span class="name">Vladislav Shevtsov</span><hr>Front-end developer</div>
-    </div>
-    <div class="me">
-        <span class="title">Contacts for communication</span>
-  
-        <div class="me-contacts">
-          Email: <br> vladshevtsov56@gmail.com <br>
-          Phone number: <br> 8(025)686-00-05
+    <header>
+      <div class="header">
+        <div class="header-image"><img src="123.jpg" alt="Фотография" /></div>
+        <div class="header-name">
+          <span class="name">Vladislav Shevtsov</span>
+          <hr />
+          Front-end developer
         </div>
-        <hr>
-        <div class="me-social">
-        Telegram: <a href="https://t.me/retater56"> @retater56 </a>
-        Vkonakte: <a href="https://vk.com/vlad__shevtsov">Vlad Shevtsov</a> 
-        LinkedIn: <a href="https://www.linkedin.com/in/vladshevtsov56/">Vlad Shevtsov</a>
       </div>
-    </div>
-    <div class="about">
-      <p><span class="title">Summury</span></p>
+      <div class="me">
+        <span class="title">Contacts for communication</span>
 
-        <div class="about-summury">
-          <p>
-            I am 23 years old. Last year I graduated from the university with a degree in engineering,
-            but the motivation in our country does not give me the opportunity to realize myself.
-            At the moment, I have a great desire to realize myself as a person and prove my importance in this world.
-            That is why I want to master programming - for me it is an opportunity to grow professionally, to achieve all my desires,
-            and I have a lot of them.
-            For over a year now I have been studying the structure of work on my own.
-            In the future, I want to become a Full-stack developer in order to know absolutely everything.
-          </p>
-        </div>
-
-        <p><span class="title">Skills</span></p>
-
-        <div class="about-skills">
+        <div class="me-contacts">
           <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript</li>
-            <li>GitHub</li>
-            <li>Figma</li>
-            <li>BEM methodology</li> 
-            <li>Visual Studio Code</li>
-            <li>Sublime Text 3</li>
+            <li>
+              Email: <br />
+              vladshevtsov56@gmail.com <br />
+            </li>
+            <li>
+              Phone number: <br />
+              8(025)686-00-05
+            </li>
           </ul>
         </div>
+        <hr />
+        <div class="me-social">
+          <ul>
+            <li>Telegram: <a href="https://t.me/retater56"> @retater56 </a></li>
+            <li>Vkonakte: <a href="https://vk.com/vlad__shevtsov">Vlad Shevtsov</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/vladshevtsov56/">Vlad Shevtsov</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="about">
+        <summary>
+          <h3><span class="title">Summury</span></h3>
 
-        <p><span class="title">Code example</span></p>
-
-        <div class="about-code">
-          <div><code>
-          function fun1() {<br>
-              var rad=document.getElementsByName("r1");<br>
-              for (var i = 0; i &le; rad.length; i++) {<br>
-                  if (rad[i].checked) {<br>
-                  alert("Выбран " + i + " Элемент");
-                  }}<br>
-              }<br> 
-            </code>
+          <div class="about-summury">
+            <p>
+              I am 23 years old. Last year I graduated from the university with
+              a degree in engineering, but the motivation in our country does
+              not give me the opportunity to realize myself. At the moment, I
+              have a great desire to realize myself as a person and prove my
+              importance in this world. That is why I want to master programming
+              - for me it is an opportunity to grow professionally, to achieve
+              all my desires, and I have a lot of them. For over a year now I
+              have been studying the structure of work on my own. In the future,
+              I want to become a Full-stack developer in order to know
+              absolutely everything.
+            </p>
           </div>
-        </div>
+        </summary>
 
-        <p><span class="title">Projects</span></p>
+        <section>
+          <h3><span class="title">Skills</span></h3>
 
-        <div class="about-projects"><p>Filled in the process of completing the assignments of the RS School course.</p></div>
+          <div class="about-skills">
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>GitHub</li>
+              <li>Figma</li>
+              <li>BEM methodology</li>
+              <li>Visual Studio Code</li>
+              <li>Sublime Text 3</li>
+            </ul>
+          </div>
+        </section>
 
+        <section>
+          <h3><span class="title">Code example</span></h3>
 
-        <p><span class="title">Education</span></p>
+          <div class="about-code">
+            <div>
+              <code>
+                function fun1() {<br />
+                var rad=document.getElementsByName("r1");<br />
+                for (var i = 0; i &le; rad.length; i++) {<br />
+                if (rad[i].checked) {<br />
+                alert("Выбран " + i + " Элемент"); }}<br />
+                }<br />
+              </code>
+            </div>
+          </div>
+        </section>
 
-        <div class="about-education">
-          <p>
-            Engineer<br>  
-            <span class="about-education__university">Belarusian National Technical University, 2015-2020.</span>
-          </p>
-        </div>
+        <section>
+          <h3><span class="title">Projects</span></h3>
 
-        <p><span class="title">Self-study</span></p>
+          <div class="about-projects">
+            <p>
+              Filled in the process of completing the assignments of the RS
+              School course.
+            </p>
+          </div>
+        </section>
 
-        <div class="about-selfEducation">
-        <ul>
-          <li><a href="https://metanit.com/" target="_blank">metanit.com</a></li>
-  
-          <li><a href="https://www.freecodecamp.org/learn/" target="_blank">freecodecamp.org</a></li>
-  
-          <li><a href="http://code.mu/" target="_blank">code.mu</a></li>
-  
-          <li><a href="https://learn.javascript.ru/" target="_blank">learn.javascript.ru</a></li>
-  
-          <li><a href="https://ru.code-basics.com/" target="_blank">code-basics.com</a></li>
-        </ul>
-        </div>
+        <section>
+          <h3><span class="title">Education</span></h3>
 
-        <p><span class="title">English lavel</span></p>
+          <div class="about-education">
+            <p>
+              Engineer<br />
+              <span class="about-education__university"
+                >Belarusian National Technical University, 2015-2020.</span>
+            </p>
+          </div>
+        </section>
+
+        <section>
+          <h3><span class="title">Self-study</span></h3>
+
+          <div class="about-selfEducation">
+            <ul>
+              <li>
+                <a href="https://metanit.com/" target="_blank">metanit.com</a>
+              </li>
+
+              <li>
+                <a href="https://www.freecodecamp.org/learn/" target="_blank">freecodecamp.org</a>
+              </li>
+
+              <li>
+                <a href="http://code.mu/" target="_blank">code.mu</a>
+              </li>
+
+              <li>
+                <a href="https://learn.javascript.ru/" target="_blank">learn.javascript.ru</a>
+              </li>
+
+              <li>
+                <a href="https://ru.code-basics.com/" target="_blank">code-basics.com</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h3><span class="title">English lavel</span></h3>
 
           <div class="about-english"><p>A2 (Pre-Intermediate).</p></div>
-
-    </div>
-    <div class="footer">
-
-    </div>
-</body>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="footer"></div>
+    </footer>
+  </body>
 </html>
